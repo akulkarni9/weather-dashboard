@@ -1,3 +1,7 @@
+### Preview 
+
+![alt text](https://github.com/akulkarni9/weather-dashboard/blob/main/screenshots/screenshot-1.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -97,4 +101,5 @@ This has been hosted in firebase. Following steps will help to understand how I 
 10. Deploy the project, `firebase deploy`
 If everything goes good, your website should be hosted in `https://<proejctnameinfirebaseconsole>.web.app/`  
 *Note:* If you get any warnings such as `Mixed Content`, make sure that you load your resources in react app via `https://`. 
+
 You can access my weather dashboard through https://weatherdashboard-39b51.web.app/. 
