@@ -14,8 +14,6 @@ import Chart from "react-google-charts";
 // async
 import { useAsync } from 'react-async';
 
-// import Config from '../config';
-
 const API_KEY = process.env.REACT_APP_API_KEY;
 const API_URL = `http://api.openweathermap.org/data/2.5/forecast?q=bengaluru&appid=${API_KEY}`;
 
