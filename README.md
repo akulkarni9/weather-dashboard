@@ -66,4 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-"# weather-dashboard" 
+"# weather-dashboard"  
+
+### Testing this React Dashboard
+
+Dependecies used for testing: 
+`"jest-dom": "^4.0.0",
+"mocha": "^8.1.3",
+"@testing-library/jest-dom": "^5.11.4",
+"@testing-library/react": "^11.0.4",
+"frisby": "^2.1.3",
+"react-test-renderer": "^16.13.1"`
