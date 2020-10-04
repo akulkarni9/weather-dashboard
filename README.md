@@ -103,3 +103,7 @@ If everything goes good, your website should be hosted in `https://<proejctnamei
 *Note:* If you get any warnings such as `Mixed Content`, make sure that you load your resources in react app via `https://`. 
 
 You can access my weather dashboard through https://weatherdashboard-39b51.web.app/. 
+
+### Future plans
+1. Build a weather prediction system by using data got by `openweathermap`.
+2. Add subscription and send updates about weather prediction to subscribers.
