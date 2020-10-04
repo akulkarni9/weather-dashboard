@@ -9,3 +9,8 @@
 
 # locks
 package-lock.json
+
+# firebase 
+/.firebase
+.firebaserc
+firebase.json

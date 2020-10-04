@@ -15,7 +15,7 @@ import Chart from "react-google-charts";
 import { useAsync } from 'react-async';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
-const API_URL = `http://api.openweathermap.org/data/2.5/forecast?q=bengaluru&appid=${API_KEY}`;
+const API_URL = `https://api.openweathermap.org/data/2.5/forecast?q=bengaluru&appid=${API_KEY}`;
 
 const loadUsers = async () =>
   // That is weather API which pulls Bangalore's 5 day weather data.

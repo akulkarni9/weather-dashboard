@@ -86,4 +86,15 @@ Run `yarn build` in root directory. It correctly bundles React in production mod
 
 This has been hosted in firebase. Following steps will help to understand how I deployed this in firebase. 
 1. Run `yarn build` in your project's root.
-2. Install firebase tools, `npm i firebase-tools`
+2. Go to firebase console and create a project.
+3. Install firebase tools, `npm i -g firebase-tools`
+4. Run `firebase login`. 
+5. After authentication part is complete, run this, `fire base init` and select `>( ) Hosting: Configure and deploy Firebase Hosting sites`.  
+6. Select `Use an existing project`.  
+7. Select the project that you created in firebase console.
+8. Let the name of public directory be `build`. For other questions, choose default answer, i.e., `N`. 
+9. When it is completed, you should get `.firebaserc` and `firebase.json` files in your project's root. 
+10. Deploy the project, `firebase deploy`
+If everything goes good, your website should be hosted in `https://<proejctnameinfirebaseconsole>.web.app/`  
+*Note:* If you get any warnings such as `Mixed Content`, make sure that you load your resources in react app via `https://`. 
+You can access my weather dashboard through https://weatherdashboard-39b51.web.app/. 
