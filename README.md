@@ -99,7 +99,7 @@ This has been hosted in firebase. Following steps will help to understand how I 
 8. Let the name of public directory be `build`. For other questions, choose default answer, i.e., `N`. 
 9. When it is completed, you should get `.firebaserc` and `firebase.json` files in your project's root. 
 10. Deploy the project, `firebase deploy`
-If everything goes good, your website should be hosted in `https://<proejctnameinfirebaseconsole>.web.app/`  
+If everything goes good, your website should be hosted in `https://<projectnameinfirebaseconsole>.web.app/`  
 *Note:* If you get any warnings such as `Mixed Content`, make sure that you load your resources in react app via `https://`. 
 
 You can access my weather dashboard through https://weatherdashboard-39b51.web.app/. 
