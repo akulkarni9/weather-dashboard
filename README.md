@@ -78,7 +78,7 @@ Dependecies used for testing:
 "frisby": "^2.1.3",
 "react-test-renderer": "^16.13.1"`  
 
-To run `unit tests`, run `yarn test`. It'll automatically rull all tests. 
+To run `unit tests`, run `yarn test`. It'll automatically run all tests. 
 
 ### Building this dashboard
 
@@ -86,4 +86,4 @@ Run `yarn build` in root directory. It correctly bundles React in production mod
 
 This has been hosted in firebase. Following steps will help to understand how I deployed this in firebase. 
 1. Run `yarn build` in your project's root.
-2. 
+2. Install firebase tools, `npm i firebase-tools`
