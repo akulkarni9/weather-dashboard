@@ -5,8 +5,8 @@ import NavBar from '../navbar';
 import Dashboard from '../dashboard';
 
 test('renders dashboard', () => {
-  const getByTextOne  = render(<NavBar />);
-  const linkedElement = getByTextOne(/Weather/);
+  const { getByText }  = render(<NavBar />);
+  const linkedElement = getByText(/Weather/);
   expect(linkedElement).toBeInTheDocument();
 });
 
